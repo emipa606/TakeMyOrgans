@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Take My Organs</name>
+  <author>Duck</author>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <url>
+  </url>
+  <description>
+This Mod takes the debuff from My Organs harvested and Colonist organs harvested.
+</description>
+</ModMetaData>

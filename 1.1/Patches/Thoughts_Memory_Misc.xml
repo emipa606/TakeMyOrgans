@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="MyOrganHarvested"]</xpath>
+    <value>
+      <ThoughtDef>
+        <defName>MyOrganHarvested</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+          <li>
+            <label>my organ harvested</label>
+            <description>I dont care. Take what you want!</description>
+            <baseMoodEffect>0</baseMoodEffect>
+          </li>
+        </stages>
+      </ThoughtDef>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KnowColonistOrganHarvested"]/durationDays</xpath>
+    <value>
+      <durationDays>1</durationDays>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KnowColonistOrganHarvested"]/stackLimit</xpath>
+    <value>
+      <stackLimit>1</stackLimit>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KnowColonistOrganHarvested"]/stages</xpath>
+    <value>
+      <stages>
+        <li>
+          <label>colonist's organ harvested</label>
+          <description>Dont like them so I dont care.</description>
+          <baseMoodEffect>0</baseMoodEffect>
+        </li>
+      </stages>
+    </value>
+  </Operation>
+</Patch>

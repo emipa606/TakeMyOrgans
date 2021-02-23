@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KnowColonistExecuted"]/stages/li[label="justified execution of colonist"]/baseMoodEffect</xpath>
+    <value>
+      <baseMoodEffect>1</baseMoodEffect>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KnowColonistExecuted"]/stages/li[label="justified execution of colonist"]/description</xpath>
+    <value>
+      <description>A guilty colonist was executed.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KnowColonistExecuted"]/stages/li[label="colonist organ-harvested"]/baseMoodEffect</xpath>
+    <value>
+      <baseMoodEffect>0</baseMoodEffect>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KnowColonistExecuted"]/stages/li[label="colonist organ-harvested"]/description</xpath>
+    <value>
+      <description>A colonist died because someone took body parts from them.</description>
+    </value>
+  </Operation>
+</Patch>

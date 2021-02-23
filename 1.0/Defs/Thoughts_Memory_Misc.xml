@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>MyOrganHarvested</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>my organ harvested</label>
+        <description>I dont care. Take what you want!</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>MyOrganHarvested</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <requiredTraits>
+      <li>Masochist</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>my organ harvested</label>
+        <description>Oh yeah, remove more I like it.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>KnowColonistOrganHarvested</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stackedEffectMultiplier>0.</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>colonist's organ harvested</label>
+        <description>Dont like him so I dont care.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
